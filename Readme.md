@@ -36,7 +36,7 @@
 
 
 # HERE IS THE PREVIEW HOW THIS PROJECT LOOKS😍
-<!-- ># [LIVE [HOSTED] PROJECT LINK](https://brijesh8128-dynamic-color-changer.netlify.app/ "Dynamic color changer") -->
+># [LIVE [HOSTED] PROJECT LINK](https://brijesh8128-simple-webpage.netlify.app/?title= "Simple Web Page")
 
 >![Screenshot](./screenshot/screenshot-2.png)
 >![Screenshot](./screenshot/screenshot-1.png)
