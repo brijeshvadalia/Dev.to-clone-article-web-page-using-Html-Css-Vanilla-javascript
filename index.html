@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/svg+xml" href="./favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" href="./favicon/favicon-32x32.png">
+       
+        <title>Simple Web Page </title>
+    </head>
+   
+
+    <body>
+        <div id="header-container">
+            <div id="header">
+                <div id="logo-search-container">
+                    <img id="logo" src="https://dev-to-uploads.s3.amazonaws.com/uploads/logos/resized_logo_UQww2soKuUsjaOGNB38o.png">
+                    <input type="text" placeholder="Search..."/>
+                </div>
+                <button id="show-btn" onclick="handleCreatePost()">Create post</button>
+            </div>
+        </div>
+
+        <div id="post-form-container">
+            <form>
+                <label for="title"><b>Title</b></label>
+                <input type="text" name="title" placeholder="Enter Title" />
+
+                <label><b>Description</b></label>
+                <input type="text" placeholder="Description" />
+
+                <label><b>Post</b></label>
+                <textarea placeholder="Your post..."></textarea>
+                <button id="save-btn" onclick=savePost()>Save post</button>
+                <button id="hide-btn" onclick=hidePostForm()>Hide form</button>
+            </form>
+        </div>
+
+        <div id="main-section-container">
+            <div id="article-section-container">
+                <img id="article-cover" src="https://miro.medium.com/max/1400/1*L_QoAG863l8QvqxpNyBiqw.gif"/>
+                <div>
+                    <h1>JavaScript Interview Preparation</h1>
+                    <h3>Some short info on the article</h3>
+                    <p class="article-info"><i>Written by: Brijesh Vadaliya</i></p>
+                    <p class="article-info"><i>Date: 2022.12.21</i></p>
+                </div>
+
+                <div>
+                    <p>paragraph 1</p>
+                    <p>paragraph 2</p>
+
+                    <h4>Section header</h4>
+                    <p>paragraph 1</p>
+                    <p>This is a list of things you should do</p>
+                    <ul>
+                        <li>item 1</li>
+                        <li>item 2</li>
+                        <li>item 3</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="side-section-container">
+                <div>
+                    <h2>Side Section</h2>
+                    <h3>Another article title</h3>
+                    <h4>Short description</h4>
+                    <a href="https://brijeshvadaliya8128.hashnode.dev/" target="_blank">Click to see article</a>
+                </div>
+
+                <div>
+                    <h2>Also Side Section</h2>
+                    <h3>Another article title</h3>
+                    <h4>Short description</h4>
+                    <a href="https://brijeshvadaliya8128.hashnode.dev/" target="_blank">Click to see article</a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div id="footer">
+            <p>This is the footer</p>
+        </div>
+      
+    </body>
+
+  
+</html>
